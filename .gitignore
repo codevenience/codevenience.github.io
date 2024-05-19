@@ -1,0 +1,37 @@
+##
+#  @file
+#  Git configuration file for specifies intentionally untracked files to ignore.
+#
+#  @copyright
+#  Copyright (c) 2024, Codevenience Organization. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-3-Clause
+#
+#  @par Specification Reference:
+#  - Refer: https://git-scm.com/docs/gitignore
+#
+##
+
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
