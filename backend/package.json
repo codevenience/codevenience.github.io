@@ -1,0 +1,22 @@
+{
+  "name": "codevenience-backend",
+  "version": "1.0.0",
+  "description": "Codevenience website backend.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevenience/codevenience.github.io.git"
+  },
+  "author": "Codevenience Organization",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/codevenience/codevenience.github.io/issues"
+  },
+  "homepage": "https://github.com/codevenience/codevenience.github.io#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
